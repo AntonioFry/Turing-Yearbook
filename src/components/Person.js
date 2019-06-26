@@ -2,7 +2,7 @@ import React from 'react';
 import './Person.css';
 
 const Person = (props) => {
-  const { name, photo, quote, id, superlative } = props;
+  const { name, photo, quote, superlative } = props;
   return (
     <div className='person'>
       <h2>{name}</h2>

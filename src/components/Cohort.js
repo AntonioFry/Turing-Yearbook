@@ -10,12 +10,12 @@ const Cohort = (props) => {
   })
   
   return (
-    <main className='cohort'>
+    <section className='cohort'>
       <h2>Cohort</h2>
       <section className="people">
         {cards}
       </section>
-    </main>
+    </section>
   )
 }
 
