@@ -1,10 +1,14 @@
 import React from 'react';
 import './Person.css';
 
-const Person = () => {
+const Person = (props) => {
+  const { name, photo, quote, superlative } = props;
   return (
-    <div>
-      
+    <div className='person'>
+      <h2>{name}</h2>
+      <img src={photo} alt="a bird"/>
+      <p className="quote">{quote}</p>
+      <p>{superlative}</p>
     </div>
   )
 }
