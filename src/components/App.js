@@ -13,13 +13,16 @@ class App extends Component {
     }
   }
 
+  addPerson = (person, category) => {
+    this.setState({ [category]: [...this.state[category], person] });
+  }
   
   render() {
     return (
       <div className="App">
       <header className="App-header">
-      <h1>Turing Yearbook</h1>
-      <Form />
+        <h1>Turing Yearbook</h1>
+        <Form addPerson={this.addPerson} />
       </header>
       <main>
         <Cohort people={this.state.staff} />

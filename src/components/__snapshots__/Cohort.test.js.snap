@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cohort match the snapshot with all the data passed in correctly 1`] = `
+<section
+  className="cohort"
+>
+  <h2>
+    Cohort
+  </h2>
+  <section
+    className="people"
+  >
+    <Person
+      key="1"
+      name="name"
+      photo="image"
+      quote="quote"
+      superlative="superlative"
+    />
+    <Person
+      key="2"
+      name="name"
+      photo="image"
+      quote="quote"
+      superlative="superlative"
+    />
+  </section>
+</section>
+`;
