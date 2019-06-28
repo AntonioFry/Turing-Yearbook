@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card match the snapshot with all the data passed in correctly 1`] = `
+<div
+  className="person"
+>
+  <h2>
+    name
+  </h2>
+  <img
+    alt="a bird"
+    src="image"
+  />
+  <p
+    className="quote"
+  >
+    quote
+  </p>
+  <p>
+    superlative
+  </p>
+</div>
+`;
